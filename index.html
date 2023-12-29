@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <video class="background" muted="" autoplay="autoplay" loop="loop">
+        <source src="./video/bg_particles.mp4" type="video/mp4">
+    </video>
+    <header>
+        <img src="./img/logo.png" alt="Logotipo FECAF" class="logo">
+    </header>
+    <main>
+        <form>
+            <h1 class="title">Calculadora - IMC</h1>
+            <input type="text" class="field" id="nome" placeholder="Nome">
+            <input type="number" class="field" id="altura" placeholder="Altura em metros">
+            <input type="number" step="1" class="field" id="peso" placeholder="Peso em quilos">
+            <button type="button" id="calcular">Calcular</button>
+            <output class="resultado" id="resultado"></output>
+        </form>
+    </main>
+    
+</body>
+</html>
